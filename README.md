@@ -3,14 +3,14 @@
 A simple AI workflow pipeline built using Python and Google Gemini API that demonstrates multi-step prompt chaining:
 Input → Summarize → Critique → Improve
 
-🚀 Features
+🚀 Features:
 🔹 Multi-step AI pipeline
 🔹 Text summarization
 🔹 Automated critique of generated output
 🔹 Improved final response using feedback loop
 🔹 Built using Gemini (gemini-3-flash)
 
-🏗️ How It Works
+🏗️ How It Works:
 Summarization:
 Converts input text into 3–5 bullet points
 
@@ -20,12 +20,12 @@ Identifies missing or unclear information
 Refinement:
 Produces an improved, clearer summary
 
-📦 Tech Stack
+📦 Tech Stack:
 Python
 Google Gemini API
 Google Colab (for development)
 
-⚙️ Setup
+⚙️ Setup:
 1. Install dependencies
 pip install google-genai
 
@@ -38,13 +38,13 @@ client = genai.Client(api_key=userdata.get("GEMINI_API_KEY"))
 Or locally:
 export GOOGLE_API_KEY=your_api_key_here
 
-▶️ Usage
+▶️ Usage:
 summary, critique, improved = run_pipeline(text)
 print(summary)
 print(critique)
 print(improved)
 
-📌 Example Output
+📌 Example Output:
 Summary:
 AI is transforming industries
 Improves automation and decision-making
@@ -57,13 +57,13 @@ Does not mention limitations
 Improved Version:
 More structured and complete explanation incorporating missing points
 
-🎯 Purpose
+🎯 Purpose:
 This project demonstrates:
 Prompt engineering fundamentals
 AI workflow design
 Output refinement using chained reasoning
 
-🔮 Future Improvements
+🔮 Future Improvements:
 Add web interface (Flask/React)
 Support file inputs (PDF, articles)
 Add style/tone customization
@@ -74,6 +74,6 @@ Integrate with larger AI systems
 ├── README.md
 └── Gemini_Text_Summary_Pipeline.ipynb
 
-🧑‍💻 Author
+🧑‍💻 Author:
 Code written by Adish Singh
 Built as part of an AI systems learning project.
