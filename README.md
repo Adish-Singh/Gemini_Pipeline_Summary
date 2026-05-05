@@ -105,8 +105,10 @@ Add style/tone customization
 Integrate with larger AI systems
 
 📂 Project Structure
+
 .
 ├── README.md
+
 └── Gemini_Text_Summary_Pipeline.ipynb
 
 🧑‍💻 Author
